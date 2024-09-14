@@ -93,9 +93,6 @@ module tb_Traffic_Light_Controller;
         sa = 0; sb = 0;
         #0.01;
 
-        // Simulate for additional cycles
-        #26; // Additional time to cover more cycles (26 seconds -> 26 us)
-
         // End simulation
         $finish;
     end
