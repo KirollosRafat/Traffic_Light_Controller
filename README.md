@@ -2,7 +2,7 @@
 
 # Overview:
 
-The Traffic Light Controller is designed to manage the traffic lights at an intersection with two streets, Street A and Street B. It handles the operation of traffic lights by cycling through different states based on the traffic conditions and timing requirements. The controller uses a finite state machine (FSM) and a counter to ensure that the traffic lights change at appropriate intervals.
+The Traffic Light Controller is designed to manage the traffic lights at an intersection with two streets, Street A and Street B where street A is considered the main street. It handles the operation of traffic lights by cycling through different states based on the traffic conditions and timing requirements. The controller uses a finite state machine (FSM) and a counter to ensure that the traffic lights change at appropriate intervals.
 
 # States:
 
