@@ -16,7 +16,7 @@ s2: Red light for Street A, Green light for Street B for 50 seconds.
 
 s3: Red light for Street A, Yellow light for Street B for 10 seconds.
 
-# Operation
+# Operation: 
 
 State Transition and Timing:
 
