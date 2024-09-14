@@ -98,7 +98,7 @@ module Traffic_Light_Controller(
     end
 
     // Combinational block for output signals based on state
-    always @(*) begin
+    always @(state) begin
         // Initialize all lights to off
         Ga = 1'b0; Ya = 1'b0; Ra = 1'b0;
         Gb = 1'b0; Yb = 1'b0; Rb = 1'b0;
